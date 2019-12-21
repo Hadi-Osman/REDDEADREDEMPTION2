@@ -1,0 +1,160 @@
+#button-addon1 {
+  color: #ffc371;
+}
+i {
+  color: #ffc371;
+}
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		.navbar-nav .nav-link:hover{
+			color: red !important; 
+		}
+		.card .nav-link{
+			color: #000000;
+			background-color: #FFFFFF;
+		}
+		.card .nav-link:hover{
+			border-radius: 5px;
+			color: #FFFFFF;
+			background-color: #CD0003;
+		}
+		
+		
+		.container {
+  position: relative;
+  width: 50%;
+}
+		
+		
+.card:hover{
+  background-color: #000000;
+}			
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .3s ease;
+  backface-visibility: hidden;
+}
+.card:hover .image{
+  opacity: 0.4;
+  filter: blur(3px);
+}
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+		* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.header {
+  text-align: center;
+  padding: 32px;
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+		
+		
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+	
+	
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	
+	
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+		ul.timeline {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+}
+ /* Timeline vertical line */
+ul.timeline:before {
+    content: ' ';
+    background: #D10003;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    width: 4px;
+    height: 100%;
+    z-index: 400;
+    border-radius: 1rem;
+}
+li.timeline-item {
+	color: #FDFDFD;
+    margin: 20px 0;
+}
+/* Timeline item arrow */
+.timeline-arrow {
+    border-top: 0.5rem solid transparent;
+    border-right: 0.5rem solid #fff;
+    border-bottom: 0.5rem solid transparent;
+    display: block;
+    position: absolute;
+    left: 2rem;
+}
+/* Timeline item circle marker */
+li.timeline-item::before {
+    content: ' ';
+    background: #000000;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+    left: 11px;
+    width: 14px;
+    height: 14px;
+    z-index: 400;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+        

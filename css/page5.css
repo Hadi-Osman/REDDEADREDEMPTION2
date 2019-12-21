@@ -1,0 +1,36 @@
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+	
+			.navbar-nav .nav-link:hover{
+			color: red !important; 
+		}
+		.card .nav-link{
+			color: #000000;
+			background-color: #FFFFFF;
+		}
+		 .card:hover .nav-link:hover {
+			border-radius: 5px;
+			color: #FFFFFF;
+			background-color: #CD0003;
+		}
+		.card:hover{
+			background-color: #000000;
+		}
+		
+	.dropdown-item:hover, .dropdown-item:active, .dropdown-item:focus {background-color: darkred !important;}
+		.container {
+  position: relative;
+  width: 50%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
